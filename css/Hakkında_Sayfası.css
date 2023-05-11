@@ -1,0 +1,48 @@
+body
+{
+ background-color: darkgray;
+}
+
+h3
+{
+    text-align: center;
+    font-size: 35px;
+    color:black;
+}
+
+div.aciklama_resim
+{
+    margin-top: 10px;
+    margin-left: 55px;
+    float: left;
+}
+
+div.aciklama_metin
+{
+    margin-left: 30px;
+    margin-top: 10px;
+    float: left;
+    height: 400 px;
+    font-style: initial;
+    font-size: 15px;
+}
+
+div.hobi_resim
+{
+    margin-left: 55px;
+    float: left;
+}
+
+div.button_link
+{
+    width: 500px;
+    padding-left: 230px;
+    float: left;
+    
+}
+
+
+div.sifirla
+{
+    clear: both;
+}
