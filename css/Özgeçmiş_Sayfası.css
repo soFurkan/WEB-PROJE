@@ -1,0 +1,134 @@
+body
+{
+    background-image: url("/Users/ismlf/WEB-PROJE/Resimler/arkaplan.png");
+}
+
+h1
+{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+h2
+{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+h2.footer
+{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 25px;
+}
+
+h3
+{
+    padding-left: 30px;
+    color: white;
+}
+
+h3.sosyal_ag
+{
+    text-align: center;
+    color: white;
+}
+
+h4
+{
+    padding-left: 30px;
+    color: white;
+}
+
+p
+{
+    color: white;
+    padding-left: 30px;
+}
+
+li
+{
+    color: white;
+}
+
+div.article
+{
+    border: 2px solid; 
+    border-color: white;
+    height: 230px;
+    width: 500px;
+    float: left;
+}
+
+div.article_2
+{
+    border: 2px solid; 
+    border-color: white;
+    height: 230px;
+    width: 300px;
+    float: left;
+}
+
+div.article_3
+{
+    border: 2px solid; 
+    border-color: white;
+    height: 230px;
+    width: 350px;
+    float: left;
+}
+
+div.article_4
+{
+    border: 2px solid; 
+    border-color: white;
+    height: 230px;
+    width: 336px;
+    float: left;
+}
+
+div.article_5
+{
+    border: 2px solid; 
+    border-color: white;
+    height: 230px;
+    width: 300px;
+    float: left;
+}
+
+div.article_6
+{
+    border: 2px solid; 
+    border-color: white;
+    height: 230px;
+    width: 300px;
+    float: left;
+}
+
+div.bosluk
+{
+    height: 230px;
+    width: 10px;
+    float: left;
+}
+
+div.bosluk2
+{
+    height: 10px;
+}
+
+div.ortabosluk
+{
+    float: left;
+    height: 270px;
+    width: 917px;
+    padding-left: 368px;
+}
+
+div.sifirla
+{
+    clear: both;
+}
