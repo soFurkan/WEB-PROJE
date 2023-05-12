@@ -1,13 +1,17 @@
 body
 {
- background-color: darkgray;
+ background-image: url("/Users/ismlf/WEB-PROJE/Resimler/arkaplan.png");
 }
 
 h3
 {
     text-align: center;
     font-size: 35px;
-    color:black;
+    color:white;
+}
+
+p{
+    color: white;
 }
 
 div.aciklama_resim
@@ -33,6 +37,12 @@ div.hobi_resim
     float: left;
 }
 
+p.hobi_aciklama
+{
+    text-align: center;
+    color: white;
+}
+
 div.button_link
 {
     width: 500px;
@@ -40,7 +50,6 @@ div.button_link
     float: left;
     
 }
-
 
 div.sifirla
 {
