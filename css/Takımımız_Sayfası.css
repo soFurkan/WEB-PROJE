@@ -1,0 +1,78 @@
+body
+{
+    background-color: black;
+}
+
+
+h1.baslik
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h3
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+p
+{
+    color: white;
+}
+
+img
+{
+    padding-left: 25px;
+}
+
+img.teknik_adamlar
+{
+    width: 60px;
+    height: 20px;
+}
+
+li
+{
+    color: white;
+}
+
+
+
+div.metin
+{
+    float: left;
+    width: 86%;
+    
+}
+
+
+div.resim
+{
+    float: left;
+    border-style: double;
+    border-color: white;
+    height: 678px;
+    width: 200px;
+}
+
+p.resim
+{
+    padding-left: 10px;
+}
+
+div.sifirla
+{
+    clear: both;
+}
+
+div.bosluk
+{
+    height: 30px;
+}

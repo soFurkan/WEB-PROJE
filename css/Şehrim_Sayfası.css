@@ -16,9 +16,25 @@ h2
     text-align: center;
 }
 
-
 h3
 {
     color:white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.bosluk
+{
+    height: 30px;
+}
+
+div.bosluk2
+{
+    height: 50px;
+}
+
+a.takim
+{
+    color: white;
+    background-color: aqua;
+    text-decoration: underline;
 }

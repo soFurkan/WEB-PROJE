@@ -1,6 +1,6 @@
 body
 {
- background-image: url("/Users/ismlf/WEB-PROJE/Resimler/arkaplan.png");
+ background-image: url("../Resimler/arkaplan.png");
 }
 
 h3
@@ -54,4 +54,14 @@ div.button_link
 div.sifirla
 {
     clear: both;
+}
+
+div.bosluk
+{
+    height: 25px;
+}
+
+div.bosluk2
+{
+    height: 50px;
 }
