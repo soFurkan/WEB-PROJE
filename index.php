@@ -24,7 +24,6 @@
                 <input type="password" name="password" class="login-field" placeholder="Şifre" id="login-pass" required>
                 <label for="login-pass" class="login-field-icon fui-user"></label>
             </div>
-            
             <button href="./index.php" name="giris" class="btn btn-primary btn-large btn-block">Giriş Yap</button>
             <a href="./kayit.php" class="btn btn-primary btn-large btn-block">Kayıt Ol</a>
         </div>

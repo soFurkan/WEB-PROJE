@@ -64,8 +64,8 @@ if(isset($_POST['giris']))
         if($say==1)
         {
             $_SESSION['email']=$email;
-            echo "Başarıyla giriş yaptınız, yönlendiriliyorsunuz";
-            header('Refresh:2; anasayfa.php');
+            echo $_POST['email']; + "Başarıyla giriş yaptınız, yönlendiriliyorsunuz";
+            header("Location:Hakkında_Sayfası.html");
             
         }
         else
