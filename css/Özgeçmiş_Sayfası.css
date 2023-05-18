@@ -1,6 +1,7 @@
 body
 {
     background-image: url("../Resimler/arkaplan.png");
+    font-size: 1.2vw;
 }
 
 h1
@@ -29,6 +30,7 @@ h3
 {
     padding-left: 30px;
     color: white;
+    font-size: 1.4vw;
 }
 
 h3.sosyal_ag
@@ -41,12 +43,14 @@ h4
 {
     padding-left: 30px;
     color: white;
+    font-size: 1.4vw;
 }
 
 p
 {
     color: white;
     padding-left: 30px;
+    font-size: 1.140vw;
 }
 
 li
@@ -57,69 +61,19 @@ li
 img
 {
     border-radius: 50%;
-    height: 250px;
-    width: 220px;
+    max-width: 100%;
     object-fit: cover;
+    text-align: center;
+    max-height: 200px;
+    
+    height: auto;
 }
 
-div.article
-{
-    border: 2px solid; 
-    border-color: white;
-    height: 230px;
-    width: 350px;
-    float: left;
-}
-
-div.article_2
-{
-    border: 2px solid; 
-    border-color: white;
-    height: 230px;
-    width: 350px;
-    float: left;
-}
-
-div.article_3
-{
-    border: 2px solid; 
-    border-color: white;
-    height: 230px;
-    width: 350px;
-    float: left;
-}
-
-div.article_4
-{
-    border: 2px solid; 
-    border-color: white;
-    height: 230px;
-    width: 350px;
-    float: left;
-}
-
-div.article_5
-{
-    border: 2px solid; 
-    border-color: white;
-    height: 230px;
-    width: 350px;
-    float: left;
-}
-
-div.article_6
-{
-    border: 2px solid; 
-    border-color: white;
-    height: 230px;
-    width: 350px;
-    float: left;
-}
 
 div.bosluk
 {
     height: 230px;
-    width: 24px;
+    width: 1.57%;
     float: left;
 }
 
@@ -128,15 +82,257 @@ div.bosluk2
     height: 24px;
 }
 
-div.ortabosluk
-{
-    float: left;
-    height: 270px;
-    width: 775px;
-    padding-left: 282px;
-}
 
 div.sifirla
 {
     clear: both;
+}
+
+/* Mobile */
+div.article
+{
+    border: 2px solid; 
+    border-color: white;
+    height: auto;
+    min-height: 180px;
+    width: 23.1%;
+    float: left;
+}
+
+div.article_2
+{
+    border: 2px solid; 
+    border-color: white;
+    height: auto;
+    min-height: 180px;
+    width: 23.1%;
+    float: left;
+}
+
+div.article_3
+{
+    border: 2px solid; 
+    border-color: white;
+    height: auto;
+    min-height: 180px;
+    width: 23.1%;
+    float: left;
+}
+
+div.article_4
+{
+    border: 2px solid; 
+    border-color: white;
+    height: auto;
+    min-height: 180px;
+    width: 23.1%;
+    float: left;
+}
+
+div.article_5
+{
+    border: 2px solid; 
+    border-color: white;
+    height: auto;
+    width: 23.1%;
+    float: left;
+}
+
+div.article_6
+{
+    border: 2px solid; 
+    border-color: white;
+    height: auto;
+    width: 23.1%;
+    float: left;
+}
+
+
+div.ortabosluk
+{
+    float: left;
+    height: auto;
+    width: 51.05%;
+    text-align: center;
+
+}
+
+div.bosluk
+{
+    height: 230px;
+    width: 1.57%;
+    float: left;
+}
+
+div.bosluk2
+{
+    height: 0.1px;
+}
+
+
+/* Tablet */
+@media (min-width:600px) {
+    div.article
+    {
+        border: 2px solid; 
+        border-color: white;
+        height: auto;
+        min-height: 180px;
+        width: 23.1%;
+        float: left;
+    }
+    
+    div.article_2
+    {
+        border: 2px solid; 
+        border-color: white;
+        height: auto;
+        min-height: 180px;
+        width: 23.1%;
+        float: left;
+    }
+    
+    div.article_3
+    {
+        border: 2px solid; 
+        border-color: white;
+        height: auto;
+        min-height: 180px;
+        width: 23.1%;
+        float: left;
+    }
+    
+    div.article_4
+    {
+        border: 2px solid; 
+        border-color: white;
+        height: auto;
+        min-height: 180px;
+        width: 23.1%;
+        float: left;
+    }
+    
+    div.article_5
+    {
+        border: 2px solid; 
+        border-color: white;
+        height: auto;
+        width: 23.1%;
+        float: left;
+    }
+    
+    div.article_6
+    {
+        border: 2px solid; 
+        border-color: white;
+        height: auto;
+        width: 23.1%;
+        float: left;
+    }
+    
+    
+    div.ortabosluk
+{
+    float: left;
+    height: auto;
+    width: 51.05%;
+    text-align: center;
+
+}
+    div.bosluk
+{
+    height: 230px;
+    width: 1.57%;
+    float: left;
+}
+
+div.bosluk2
+{
+    height: 0.1px;
+}
+
+
+}
+
+/* Desktop */
+@media (min-width:900px) {
+    div.article
+    {
+        border: 2px solid; 
+        border-color: white;
+        height: auto;
+        min-height: 265px;
+        width: 23.1%;
+        float: left;
+    }
+    
+    div.article_2
+    {
+        border: 2px solid; 
+        border-color: white;
+        height: auto;
+        min-height: 265px;
+        width: 23.1%;
+        float: left;
+    }
+    
+    div.article_3
+    {
+        border: 2px solid; 
+        border-color: white;
+        height: auto;
+        min-height: 265px;
+        width: 23.1%;
+        float: left;
+    }
+    
+    div.article_4
+    {
+        border: 2px solid; 
+        border-color: white;
+        height: auto;
+        min-height: 265px;
+        width: 23.1%;
+        float: left;
+    }
+    
+    div.article_5
+    {
+        border: 2px solid; 
+        border-color: white;
+        height: auto;
+        width: 23.1%;
+        float: left;
+    }
+    
+    div.article_6
+    {
+        border: 2px solid; 
+        border-color: white;
+        height: auto;
+        width: 23.1%;
+        float: left;
+    }
+    
+    div.ortabosluk
+{
+    float: left;
+    height: auto;
+    width: 51.05%;
+    text-align: center;
+
+}
+div.bosluk
+{
+    height: 230px;
+    width: 1.57%;
+    float: left;
+}
+
+div.bosluk2
+{
+    height: 24px;
+}
+
+
 }
