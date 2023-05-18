@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim Sayfası</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/İletişim_Sayfası.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <p class="navbar-brand" href="#">Hoşgeldiniz</p>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="Hakkında_Sayfası.html">Hakkında Sayfası</a></li>
+            <li><a href="Özgeçmiş_Sayfası.html">Öz Geçmiş Sayfası</a></li>
+            <li><a href="Şehrim_Sayfası.html">Şehrim Sayfası</a></li>
+            <li><a href="Hobi_Sayfası.html">İlgi Alanlarım Sayfası</a></li>
+            <li><a href="İletişim_Sayfası.html">İletişim Sayfası</a></li>
+          </ul>
+        </div>
+      </nav>
+      <form action="./form.php" name="form1" class="form" novalidate method="post" onsubmit="return kontrol()">
+        <h3>İLETİŞİM FORMU</h3>
+        <ul>
+          <li>
+            <label for="username">Kullanıcı Adınız</label>
+            <input type="text" name="username" required>
+          </li>
+          <li>
+            <label for="email">E-posta Adresiniz</label>
+            <input type="email" name="email" required>
+          </li>
+          <li>
+            <label for="password">Şifreniz</label>
+            <input type="password" name="password" required>
+          </li>
+          <li>
+            <label for="cinsiyet" class=>Cinsiyet:</label><br />
+                <input type="radio" name="cinsiyet" value="Erkek" class="box"/>Erkek<br />
+                <input type="radio" name="cinsiyet" value="Kadın" class="box"/>Kadın<br />
+                <input type="radio" name="cinsiyet" value="Kadın" class="box"/>Belirtmek İstemiyorum<br />
+          </li>
+          <li>
+            <label >Beğendiğiniz Sayfaları Seçiniz</label><br>
+            <input type="checkbox" name="sayfalar[]" value="Hakkında_Sayfası" class="box" />Hakkında_Sayfası <br />
+            <input type="checkbox" name="sayfalar[]" value="Özgeçmiş_Sayfası" class="box"/>Özgeçmiş_Sayfası <br />
+            <input type="checkbox" name="sayfalar[]" value="Şehrim_Sayfası" class="box"/>Şehrim_Sayfası<br />
+            <input type="checkbox" name="sayfalar[]" value="Hobi_Sayfası" class="box"/>Hobi_Sayfası<br />
+          </li>
+          <li>
+            <label for="manzaralar">Beğendiğiniz Manzarayı Seçiniz</label><br>
+            <select name="manzaralar" id="">
+              <option value="">Seçin</option>
+              <option value="Kristal Teras">Kristal Teras</option>
+              <option value="Bulak Mencilis Mağarası">Bulak Mencilis Mağarası</option>
+              <option value="İnceKaya Su Kemeri">İnceKaya Su Kemeri</option>
+              <option value="Tarihi Çarşı">Tarihi Çarşı</option>
+            </select>
+          </li>
+          <li>
+            <label for="mesaj">Hakkınızda</label>
+            <textarea name="mesaj" id="" cols="30" rows="5" required>Kendinizi tanıtınız..</textarea>
+          </li>
+          <li>
+            <label for="güncel">Güncellenmesini İstediğiniz Sayfayı Seçiniz</label>
+            <input type="text" name="güncel" list="sayfalar">
+              <datalist id="sayfalar">
+              <option value="Hakkında_Sayfası" selected>
+              Hakkında_Sayfası
+              </option>
+              <option value="Özgeçmiş_Sayfası">
+              Özgeçmiş_Sayfası
+              </option>
+              <option value="Şehrim_Sayfası">
+              Şehrim_Sayfası
+              </option>
+              <option value="Hobi_Sayfası">
+              Hobi_Sayfası
+              </option>
+              </datalist>
+          </li>
+          <li>
+            <form>
+              <label for="">Öneri Sayfalarınızı Yükleyiniz</label>
+              <input type="file" name="dosya" multiple>
+              </form>
+          </li>
+          <li>
+            <button type="submit" value="Post">Gönder</button>
+            <button type="reset">Sıfırla</button>
+          </li>
+        </ul>
+      </form>
+
+      <script src="./javascript/İletişim.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
