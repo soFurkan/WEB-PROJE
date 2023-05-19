@@ -33,12 +33,6 @@ img.aciklama_resim
     max-width: 100%;
     height: auto;
 }
-img.hobi-resim
-{
-    max-width: 100%;
-    height: 250px;
-    display: block;
-}
 
 div.hobi_resim
 {
@@ -113,6 +107,13 @@ div.button_link3
     margin-left: 21.5%;
 }
 
+img.hobi-resim
+{
+    max-width: 100%;
+    height: 100px;
+    display: block;
+}
+
 /* Tablet */
 @media (min-width:600px) {
     div.aciklama_metin {
@@ -148,6 +149,12 @@ div.button_link3
     background-color: white;
     text-align:center;
     margin-left: 24.5%;
+}
+img.hobi-resim
+{
+    max-width: 100%;
+    height: 150px;
+    display: block;
 }
 }
 
@@ -188,6 +195,12 @@ div.button_link3
     background-color: white;
     text-align:center;
     margin-left: 26.5%;
+}
+img.hobi-resim
+{
+    max-width: 100%;
+    height: 250px;
+    display: block;
 }
 
 }
