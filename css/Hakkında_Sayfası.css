@@ -18,8 +18,9 @@ h3
 
 p{
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
+
 
 div.aciklama_resim
 {
@@ -63,13 +64,6 @@ div.bosluk2
     height: 50px;
 }
 
-div.bosluk3
-{
-    width: 500px;
-    float: left;
-}
-
-
 /* Mobile */
 div.aciklama_metin {
     padding-left: 30px;
@@ -84,27 +78,24 @@ div.button_link
     float: left;
     display: block;
     max-width: 100%;
-    background-color: white;
     text-align:center;
-    margin-left: 15%;
+    margin-left: 15vw;
 }
 div.button_link2
 {
     float: left;
     display: block;
     max-width: 100%;
-    background-color: white;
     text-align:center;
-    margin-left: 19.2%;
+    margin-left: 20.2vw;
 }
 div.button_link3
 {
     float: left;
     display: block;
     max-width: 100%;
-    background-color: white;
     text-align:center;
-    margin-left: 21.5%;
+    margin-left: 19.2vw;
 }
 
 img.hobi-resim
@@ -113,6 +104,8 @@ img.hobi-resim
     height: 100px;
     display: block;
 }
+
+
 
 /* Tablet */
 @media (min-width:600px) {
@@ -128,27 +121,24 @@ img.hobi-resim
     float: left;
     display: block;
     max-width: 100%;
-    background-color: white;
     text-align:center;
-    margin-left: 17%;
+    margin-left: 17vw;
 }
 div.button_link2
 {
     float: left;
     display: block;
     max-width: 100%;
-    background-color: white;
     text-align:center;
-    margin-left: 24.2%;
+    margin-left: 23.2vw;
 }
 div.button_link3
 {
     float: left;
     display: block;
     max-width: 100%;
-    background-color: white;
     text-align:center;
-    margin-left: 24.5%;
+    margin-left: 23.5vw;
 }
 img.hobi-resim
 {
@@ -156,6 +146,12 @@ img.hobi-resim
     height: 150px;
     display: block;
 }
+
+p{
+    color: white;
+    font-size: 1.58vw;
+}
+
 }
 
 /* Desktop */
@@ -172,29 +168,25 @@ div.aciklama_metin
 div.button_link
 {
     float: left;
-    display: block;
     max-width: 100%;
-    background-color: white;
     text-align:center;
-    margin-left: 17%;
+    margin-left: 17.5vw;
+    
 }
 div.button_link2
 {
     float: left;
-    display: block;
     max-width: 100%;
-    background-color: white;
     text-align:center;
-    margin-left: 27.2%;
+    margin-left: 27vw;
+
 }
 div.button_link3
 {
     float: left;
-    display: block;
     max-width: 100%;
-    background-color: white;
     text-align:center;
-    margin-left: 26.5%;
+    margin-left: 27vw;
 }
 img.hobi-resim
 {
@@ -202,6 +194,12 @@ img.hobi-resim
     height: 250px;
     display: block;
 }
+
+p{
+    color: white;
+    font-size: 1.5vw;
+}
+
 
 }
 

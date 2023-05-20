@@ -10,11 +10,7 @@ h1.baslik
     color: white;
 }
 
-h2
-{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-}
+
 
 h3
 {
@@ -22,49 +18,36 @@ h3
     color: white;
 }
 
-p
-{
-    color: white;
-}
+
 
 img
 {
-    padding-left: 25px;
+    padding-left: 0.3vw;
+    width: 100%;
+    height: auto;
 }
 
 img.teknik_adamlar
 {
-    width: 60px;
-    height: 20px;
+    width: 3vw;
+    height: auto;
 }
 
 li
 {
     color: white;
 }
-
-
-
-div.metin
+div.container
 {
-    float: left;
-    width: 86%;
-    
+    display: flex;
 }
 
 
-div.resim
-{
-    float: left;
-    border-style: double;
-    border-color: white;
-    height: 678px;
-    width: 200px;
-}
+
 
 p.resim
 {
-    padding-left: 10px;
+    padding-left: 1vw;
 }
 
 div.sifirla
@@ -76,3 +59,160 @@ div.bosluk
 {
     height: 30px;
 }
+
+
+
+/* Mobile */
+h2{
+
+    font-size: 3.6vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+    
+    }
+    
+    p
+    {
+        color: white;
+        font-size: 2vw;
+    }
+    
+    div.metin
+    {
+        float: left;
+        width: 61vw;
+        border-style:double;
+        border-color: white;
+        min-height: 49.5vw;    
+    }
+    
+    
+    div.resim
+    {
+        float: left;
+        border-style: double;
+        border-color: white;
+        width: 26.2vw;
+        max-height: 90vw;
+    }
+
+    div.container2
+{
+    float: left;
+    width: 23.2vw;
+    max-height: 51vw;
+}
+
+
+
+
+
+/* Tablet */
+@media (min-width:600px) {
+
+h2{
+
+font-size: 3.6vw;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+
+
+}
+
+p
+{
+    color: white;
+    font-size: 1.6vw;
+}
+
+div.metin
+{
+    float: left;
+    width: 61vw;
+    border-style:double;
+    border-color: white;
+    min-height: 49.5vw;    
+}
+
+
+div.resim
+{
+    float: left;
+    border-style: double;
+    border-color: white;
+    width: 23.2vw;
+    max-height: 75vw;
+}
+
+div.container2
+{
+    float: left;
+    width: 23.2vw;
+    max-height: 51vw;
+}
+
+
+
+}
+
+/* Desktop */
+@media (min-width:900px) {
+
+h2
+{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-size: 2vw;
+}
+
+p
+{
+    color: white;
+    font-size: 1.2vw;
+}
+
+div.metin
+{
+    float: left;
+    width: 61vw;
+    border-style:double;
+    border-color: white;
+    min-height: 49.5vw;    
+}
+
+
+div.resim
+{
+    float: left;
+    border-style: double;
+    border-color: white;
+    width: 16.2vw;
+    max-height: 51vw;
+}
+
+div.container2
+{
+    float: left;
+    width: 16.2vw;
+    max-height: 51vw;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
